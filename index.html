@@ -10,9 +10,16 @@
     <h1>Welcome to my website!</h1>
     <p>This is the main content of the page.</p>
   </main>
-  <footer>
-    <p>Copyright © 2021 My Website</p>
-  </footer>
+   <button onclick="playMusic()">Play Music</button>
+
+<audio id="music" src="">Grizly0/I-don-t-know/5437434100973568.wav</audio>
+
+<script>
+  function playMusic() {
+    var music = document.getElementById("music");
+    music.play();
+  }
+</script>
 </body>
 </html>
 
